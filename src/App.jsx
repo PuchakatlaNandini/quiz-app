@@ -2,7 +2,7 @@
 import React from 'react';
 import QuizContainer from './components/Quizcontainer';
 import { Box, Container, Typography } from '@mui/material';
-import { Helmet, HelmetProvider } from 'react-helmet-async';
+import { Helmet } from 'react-helmet-async';
 const App = () => {
 
   return (
