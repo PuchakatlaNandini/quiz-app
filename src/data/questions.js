@@ -66,9 +66,9 @@ const questions = [
     type: "image",
     question: "Click on the triangle",
     options: [
-      { image: "/images/square.avif", value: "square" },
-      { image: "/images/triangle.png", value: "triangle" },
-      { image: "/images/circle1.jpeg", value: "circle" },
+      { image: "/images/square.avif", value: "square" ,alt: "Square"},
+      { image: "/images/triangle.png", value: "triangle" ,alt: "Triangle"},
+      { image: "/images/circle1.jpeg", value: "circle", alt: "Circle"},
     ],
     correctAnswer: "triangle",
   },
@@ -77,9 +77,9 @@ const questions = [
     type: "image",
     question: "which of the following is the Indian Flag?",
     options: [
-      { image: "/images/india.avif", value: "india" },
-      { image: "/images/uk.jpeg", value: "uk" },
-      { image: "/images/america.avif", value: "america" },
+      { image: "/images/india.avif", value: "india" ,alt: "India" },
+      { image: "/images/uk.jpeg", value: "uk",  alt: "UK" },
+      { image: "/images/america.avif", value: "america", alt: "America" },
     ],
     correctAnswer: "india",
   },
@@ -88,9 +88,9 @@ const questions = [
     type: "image",
     question: "which of the following are Fruits?",
     options: [
-      { image: "/images/flower.avif", value: "flower" },
-      { image: "/images/veg.avif", value: "veg" },
-      { image: "/images/fruits.avif", value: "fruits" },
+      { image: "/images/flower.avif", value: "flower" ,alt: "Flower" },
+      { image: "/images/veg.avif", value: "veg" ,alt: "Vegetable" },
+      { image: "/images/fruits.avif", value: "fruits" ,alt: "Fruits" },
     ],
     correctAnswer: "india",
   }
